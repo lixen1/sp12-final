@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: lixen1/hello-golang
+          images: lixen1/sp12-final
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
